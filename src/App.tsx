@@ -11,7 +11,7 @@ const Blog = lazy(() => import('./pages/Blog'));
 const Contact = lazy(() => import('./pages/Contact'));
 
 // Loading component
-const LoadingSpinner = () => (
+export const LoadingSpinner = () => (
   <div className="loading-spinner">
     <div className="spinner"></div>
     <p>Loading...</p>
