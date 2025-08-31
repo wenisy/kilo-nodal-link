@@ -1,11 +1,29 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useSearchParams, useNavigate, useLocation } from 'react-router-dom';
 
 const LanguageSwitcher: React.FC = () => {
   const { i18n } = useTranslation();
+  const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
+
+    // Update URL with language parameter
+    const newSearchParams = new URLSearchParams(searchParams);
+    if (lng === 'en') {
+      newSearchParams.delete('lang');
+    } else {
+      newSearchParams.set('lang', lng);
+    }
+
+    const newSearch = newSearchParams.toString();
+    const newUrl = `${location.pathname}${newSearch ? `?${newSearch}` : ''}`;
+
+    navigate(newUrl, { replace: true });
+
     // Store language preference in localStorage
     localStorage.setItem('i18nextLng', lng);
   };
