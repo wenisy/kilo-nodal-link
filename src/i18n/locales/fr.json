@@ -5,14 +5,14 @@
     "contact": "Contact"
   },
   "about": {
-    "title": "À propos de l'Ingénierie Contextuelle",
+    "title": "À propos de Lien Nodal",
     "introduction": {
       "title": "Notre Mission",
-      "content": "Dans cette ère de vagues IA déferlantes, nous travaillons dur pour transformer le développement d'applications IA d'une \"alchimie\" dépendante de l'intuition et de la chance en une \"ingénierie\" testable, itérable et optimisable. Nous croyons que les systèmes IA réussis ne dépendent pas seulement de modèles puissants, mais de la gestion et de l'application sophistiquées du \"contexte\" derrière eux."
+      "content": "Dans l'ère de l'intelligence IA interconnectée, nous pionnons la transformation du développement IA des nœuds isolés vers un réseau parfaitement connecté. Chaque composant IA est un nœud, et le contexte est le pont qui les relie. Nous croyons que la véritable puissance de l'IA réside non pas dans les capacités individuelles, mais dans la façon dont ces nœuds communiquent et collaborent intelligemment à travers l'ingénierie contextuelle sophistiquée."
     },
     "vision": {
       "title": "Notre Vision",
-      "content": "Nous imaginons un avenir où toutes les applications IA possèdent d'excellentes capacités de \"mémoire\" et de \"compréhension\", ne souffrant plus de \"dégradation contextuelle\" ou de lacunes informationnelles, devenant de véritables partenaires puissants, intelligents et fiables. Nous espérons devenir la pierre angulaire de la construction d'applications IA de haute qualité, faisant de l'ingénierie contextuelle la compétitivité de base de chaque entreprise native IA. Nous croyons fermement qu'à travers des méthodes d'ingénierie rigoureuses et la poursuite d'un artisanat ultime, nous pouvons inaugurer une nouvelle ère de collaboration plus efficace entre l'IA et les humains."
+      "content": "Nous imaginons un avenir où l'intelligence IA forme un vaste réseau de nœuds interconnectés, chaque nœud spécialisé mais connecté de manière transparente par des ponts contextuels intelligents. Plus de composants IA isolés luttant dans des silos - au lieu de cela, une symphonie de nœuds intelligents travaillant en parfaite harmonie. Nous visons à devenir les architectes de cet écosystème IA connecté, faisant du lien nodal intelligent la pierre angulaire de chaque organisation native IA. Grâce à une ingénierie rigoureuse et des stratégies de connexion innovantes, nous inaugurerons une nouvelle ère où les nœuds IA collaborent aussi naturellement et efficacement que les neurones dans le cerveau humain."
     },
     "whatWeDo": {
       "title": "Nos Services",
@@ -47,9 +47,9 @@
     }
   },
   "hero": {
-    "title": "Ingénierie Contextuelle",
-    "subtitle": "De l'Alchimie IA à l'Ingénierie",
-    "description": "Autonomiser les développeurs et les entreprises pour libérer le développement d'applications IA de l'incertitude, le rendant fiable, efficace et évolutif grâce à des solutions avancées d'ingénierie contextuelle."
+    "title": "Lien Nodal",
+    "subtitle": "Connecter les Nœuds IA par le Contexte",
+    "description": "Transformer le développement IA en connectant des nœuds intelligents par ingénierie contextuelle systématique. Chaque nœud compte, chaque connexion importe - construisant l'avenir de l'intelligence IA interconnectée."
   },
   "sections": {
     "introduction": {
@@ -143,8 +143,8 @@
   },
   "contact": {
     "title": "Contactez-nous",
-    "subtitle": "Contactez l'équipe d'Ingénierie Contextuelle",
-    "introduction": "Nous aimerions avoir de vos nouvelles ! Que vous ayez des questions sur l'ingénierie contextuelle, que vous ayez besoin de services de conseil ou que vous souhaitiez collaborer sur des recherches, n'hésitez pas à nous contacter.",
+    "subtitle": "Connectez-vous avec Lien Nodal",
+    "introduction": "Prêt à connecter vos nœuds IA dans un réseau puissant et intelligent ? Nous aimerions avoir de vos nouvelles ! Que vous ayez des questions sur le lien nodal intelligent, que vous ayez besoin de services de conseil ou que vous souhaitiez collaborer sur la construction de l'avenir de l'IA interconnectée, n'hésitez pas à nous contacter.",
     "form": {
       "name": "Nom",
       "email": "Email",
@@ -159,7 +159,7 @@
     },
     "social": {
       "title": "Suivez-nous",
-      "description": "Restez informé des dernières recherches en ingénierie contextuelle et des meilleures pratiques."
+      "description": "Restez connecté aux derniers développements en lien nodal IA, ingénierie contextuelle intelligente et l'avenir de l'IA interconnectée."
     }
   },
   "search": {

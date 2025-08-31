@@ -1,6 +1,6 @@
-# Context Engineering Website
+# Nodal Link Website
 
-A modern, professional website for Context Engineering - transforming AI development from alchemy to engineering through systematic context management.
+A modern, professional website for Nodal Link - transforming AI development by connecting intelligent nodes through systematic context engineering. Every node matters, every connection counts.
 
 ## 🚀 Features
 
@@ -13,6 +13,7 @@ A modern, professional website for Context Engineering - transforming AI develop
 - **Search Functionality**: Real-time content search
 - **Table of Contents**: Auto-scrolling navigation
 - **Contact Form**: Functional contact system
+- **Nodal Philosophy**: Every AI component is a node, context is the bridge
 
 ## 📦 Installation
 

@@ -6,14 +6,14 @@
     "contact": "Contact"
   },
   "about": {
-    "title": "About Context Engineering",
+    "title": "About Nodal Link",
     "introduction": {
       "title": "Our Mission",
-      "content": "In this era of surging AI waves, we are working hard to transform AI application development from intuition and luck-dependent 'alchemy' into a testable, iterable, and optimizable 'engineering'. We believe that successful AI systems do not rely solely on powerful models, but on the sophisticated management and application of 'context' behind them."
+      "content": "In the era of interconnected AI intelligence, we are pioneering the transformation of AI development from isolated nodes to a seamlessly connected network. Every AI component is a node, and context is the bridge that connects them. We believe that the true power of AI lies not in individual capabilities, but in how intelligently these nodes communicate and collaborate through sophisticated context engineering."
     },
     "vision": {
       "title": "Our Vision",
-      "content": "We envision a future where all AI applications possess excellent 'memory' and 'understanding' capabilities, no longer plagued by 'context rot' or information gaps, becoming truly powerful, intelligent, and trustworthy partners. We hope to become the cornerstone of building high-quality AI applications, making context engineering the core competitiveness of every AI-native company. We firmly believe that through rigorous engineering methods and pursuit of ultimate craftsmanship, we can usher in a new era of more efficient collaboration between AI and humans."
+      "content": "We envision a future where AI intelligence forms a vast, interconnected network of nodes, each specialized yet seamlessly connected through intelligent context bridges. No more isolated AI components struggling in silos - instead, a symphony of intelligent nodes working in perfect harmony. We aim to become the architects of this connected AI ecosystem, making intelligent node linking the cornerstone of every AI-native organization. Through rigorous engineering and innovative connection strategies, we will usher in a new era where AI nodes collaborate as naturally and efficiently as neurons in the human brain."
     },
     "whatWeDo": {
       "title": "Our Services",
@@ -48,9 +48,9 @@
     }
   },
   "hero": {
-    "title": "Context Engineering",
-    "subtitle": "From AI Alchemy to Engineering",
-    "description": "Empowering developers and enterprises to liberate AI application development from uncertainty, making it reliable, efficient, and scalable through advanced context engineering solutions."
+    "title": "Nodal Link",
+    "subtitle": "Connecting AI Nodes Through Context",
+    "description": "Transforming AI development by connecting intelligent nodes through systematic context engineering. Every node matters, every connection counts - building the future of interconnected AI intelligence."
   },
   "sections": {
     "introduction": {
@@ -144,8 +144,8 @@
   },
   "contact": {
     "title": "Contact Us",
-    "subtitle": "Get in Touch with Context Engineering",
-    "introduction": "We'd love to hear from you! Whether you have questions about context engineering, need consulting services, or want to collaborate on research, please don't hesitate to reach out.",
+    "subtitle": "Connect with Nodal Link",
+    "introduction": "Ready to connect your AI nodes into a powerful, intelligent network? We'd love to hear from you! Whether you have questions about intelligent node linking, need consulting services, or want to collaborate on building the future of interconnected AI, please don't hesitate to reach out.",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -160,7 +160,7 @@
     },
     "social": {
       "title": "Follow Us",
-      "description": "Stay updated with the latest in context engineering research and best practices."
+      "description": "Stay connected with the latest developments in AI node linking, intelligent context engineering, and the future of interconnected AI intelligence."
     }
   },
   "search": {
@@ -171,7 +171,7 @@
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Latest Insights on Context Engineering",
+    "subtitle": "Latest Insights on AI Node Linking",
     "readMore": "Read More",
     "backToBlog": "Back to Blog",
     "recentPosts": "Recent Posts",
