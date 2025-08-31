@@ -17,9 +17,9 @@ const Navigation: React.FC = () => {
     <nav className="navigation" role="navigation" aria-label="Main navigation">
       <div className="nav-container">
         <div className="nav-brand">
-          <Link to="/" aria-label="Context Engineering - Go to homepage">
-            <img src="/favicon.svg" alt="Context Engineering Logo" className="nav-logo" />
-            Context Engineering
+          <Link to="/" aria-label="Nodal Link - Connecting AI Nodes Through Context">
+            <img src="/favicon.svg" alt="Nodal Link Logo" className="nav-logo" />
+            Nodal Link
           </Link>
         </div>
         <ul className="nav-links" role="list">
