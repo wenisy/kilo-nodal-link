@@ -32,11 +32,4 @@ export default defineConfig({
       allow: ['..']
     }
   },
-  // Test configuration
-  test: {
-    globals: true,
-    environment: 'jsdom',
-    setupFiles: ['./src/test/setup.ts'],
-    css: true,
-  },
 })
