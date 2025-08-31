@@ -18,7 +18,7 @@ A modern, professional website for Context Engineering - transforming AI develop
 
 ```bash
 # Clone the repository
-git clone https://github.com/[YOUR_GITHUB_USERNAME]/kilo-nodal-link.git
+git clone https://github.com/wenisy/kilo-nodal-link.git
 cd kilo-nodal-link
 
 # Install dependencies
@@ -34,23 +34,40 @@ npm run build
 npm run deploy
 ```
 
+## 🌐 Live Website
+
+**Production URL**: https://kilo.nodal.link/
+
+**Available Pages**:
+- Home: https://kilo.nodal.link/
+- About: https://kilo.nodal.link/about
+- Blog: https://kilo.nodal.link/blog
+- Contact: https://kilo.nodal.link/contact
+
+**Language Support**:
+- English: https://kilo.nodal.link/?lang=en
+- Chinese: https://kilo.nodal.link/?lang=zh
+- French: https://kilo.nodal.link/?lang=fr
+
 ## 🔧 Configuration
 
-### GitHub Pages Setup
+### Custom Domain Setup
 
-1. **Replace URLs in `index.html`**:
-   - Replace `[YOUR_GITHUB_USERNAME]` with your actual GitHub username
-   - Update all URLs from `https://[YOUR_GITHUB_USERNAME].github.io/kilo-nodal-link/`
+The project is configured for the custom domain `kilo.nodal.link`:
 
-2. **Update Repository Settings**:
+1. **GitHub Repository Settings**:
    - Go to your GitHub repository
    - Navigate to Settings → Pages
    - Set source to "Deploy from a branch"
    - Select "gh-pages" branch
+   - Add custom domain: `kilo.nodal.link`
 
-3. **Custom Domain (Optional)**:
-   - Create a `CNAME` file in the `public` folder
-   - Add your custom domain
+2. **DNS Configuration**:
+   - Add a CNAME record pointing `kilo.nodal.link` to `wenisy.github.io`
+   - Or add A records pointing to GitHub's IP addresses
+
+3. **SSL Certificate**:
+   - GitHub Pages will automatically provision SSL for your custom domain
 
 ### Environment Variables
 
