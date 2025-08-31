@@ -20,7 +20,7 @@ const LoadingSpinner = () => (
 
 function App() {
   return (
-    <Router>
+    <Router basename="/kilo-nodal-link">
       <div className="App">
         <a href="#main-content" className="skip-link">Skip to main content</a>
         <Navigation />
