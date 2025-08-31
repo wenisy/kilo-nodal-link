@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 
 interface SearchResult {
@@ -15,7 +15,7 @@ const SearchBar: React.FC = () => {
   const [isSearching, setIsSearching] = useState(false);
 
   // Sample content data - in a real app, this would come from a more comprehensive source
-  const contentData: SearchResult[] = [
+  const contentData: SearchResult[] = useMemo(() => [
     {
       id: '1',
       title: t('sections.introduction.title'),
@@ -46,7 +46,7 @@ const SearchBar: React.FC = () => {
       content: t('sections.corePractices.writing.description'),
       sectionId: 'core-practices'
     }
-  ];
+  ], [t]);
 
   useEffect(() => {
     if (query.trim() === '') {

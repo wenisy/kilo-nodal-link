@@ -1,6 +1,15 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+interface BlogPost {
+  id: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  readTime: string;
+  category: string;
+}
+
 const Blog: React.FC = () => {
   const { t } = useTranslation();
 
@@ -8,7 +17,7 @@ const Blog: React.FC = () => {
     document.title = `${t('blog.title')} - Context Engineering`;
   }, [t]);
 
-  const blogPosts = t('blog.posts', { returnObjects: true }) as any[];
+  const blogPosts = t('blog.posts', { returnObjects: true }) as BlogPost[];
 
   return (
     <div className="blog">
@@ -17,7 +26,7 @@ const Blog: React.FC = () => {
         <p className="blog-subtitle">{t('blog.subtitle')}</p>
 
         <div className="blog-grid">
-          {blogPosts.map((post: any) => (
+          {blogPosts.map((post: BlogPost) => (
             <article key={post.id} className="blog-card">
               <div className="blog-meta">
                 <span className="blog-category">{post.category}</span>

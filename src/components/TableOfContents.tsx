@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 
 interface TOCItem {
@@ -12,7 +12,7 @@ const TableOfContents: React.FC = () => {
   const [activeSection, setActiveSection] = useState<string>('');
   const [isVisible, setIsVisible] = useState<boolean>(false);
 
-  const tocItems: TOCItem[] = [
+  const tocItems: TOCItem[] = useMemo(() => [
     { id: 'hero', title: t('toc.introduction'), level: 1 },
     { id: 'introduction', title: t('toc.introduction'), level: 1 },
     { id: 'what-is-context', title: t('toc.whatIsContext'), level: 1 },
@@ -21,7 +21,7 @@ const TableOfContents: React.FC = () => {
     { id: 'core-practices', title: t('toc.corePractices'), level: 1 },
     { id: 'advanced-strategies', title: t('toc.advancedStrategies'), level: 1 },
     { id: 'conclusion', title: t('toc.conclusion'), level: 1 },
-  ];
+  ], [t]);
 
   useEffect(() => {
     const handleScroll = () => {
