@@ -31,11 +31,6 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/contact" element={<Contact />} />
-              {/* Language-prefixed routes */}
-              <Route path="/:lang/" element={<Home />} />
-              <Route path="/:lang/about" element={<About />} />
-              <Route path="/:lang/blog" element={<Blog />} />
-              <Route path="/:lang/contact" element={<Contact />} />
             </Routes>
           </Suspense>
         </main>

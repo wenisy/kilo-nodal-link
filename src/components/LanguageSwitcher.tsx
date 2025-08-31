@@ -1,18 +1,13 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { useNavigate, useLocation } from 'react-router-dom';
 
 const LanguageSwitcher: React.FC = () => {
   const { i18n } = useTranslation();
-  const navigate = useNavigate();
-  const location = useLocation();
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
-    // Update URL with language prefix
-    const currentPath = location.pathname.replace(/^\/(en|zh|fr)/, '');
-    const newPath = lng === 'en' ? currentPath : `/${lng}${currentPath}`;
-    navigate(newPath);
+    // Store language preference in localStorage
+    localStorage.setItem('i18nextLng', lng);
   };
 
   const languages = [
