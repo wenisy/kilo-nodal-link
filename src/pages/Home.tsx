@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import TableOfContents from '../components/TableOfContents';
+import SearchBar from '../components/SearchBar';
 
 const Home: React.FC = () => {
   const { t } = useTranslation();
 
+  useEffect(() => {
+    document.title = `${t('hero.title')} - ${t('hero.subtitle')}`;
+  }, [t]);
+
   return (
     <div className="home">
+      <SearchBar />
+      <TableOfContents />
+
       {/* Hero Section */}
-      <section className="hero">
+      <section id="hero" className="hero">
         <div className="hero-content">
           <h1>{t('hero.title')}</h1>
           <h2>{t('hero.subtitle')}</h2>
@@ -16,7 +25,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Introduction Section */}
-      <section className="section">
+      <section id="introduction" className="section">
         <div className="container">
           <h2>{t('sections.introduction.title')}</h2>
           <p>{t('sections.introduction.content')}</p>
@@ -24,7 +33,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* What is Context Section */}
-      <section className="section">
+      <section id="what-is-context" className="section">
         <div className="container">
           <h2>{t('sections.whatIsContext.title')}</h2>
           <p>{t('sections.whatIsContext.definition')}</p>
@@ -47,7 +56,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* What is Context Engineering Section */}
-      <section className="section">
+      <section id="what-is-context-engineering" className="section">
         <div className="container">
           <h2>{t('sections.whatIsContextEngineering.title')}</h2>
           <p>{t('sections.whatIsContextEngineering.definition')}</p>
@@ -56,7 +65,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Why Important Section */}
-      <section className="section">
+      <section id="why-important" className="section">
         <div className="container">
           <h2>{t('sections.whyImportant.title')}</h2>
 
@@ -73,7 +82,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Core Practices Section */}
-      <section className="section">
+      <section id="core-practices" className="section">
         <div className="container">
           <h2>{t('sections.corePractices.title')}</h2>
 
@@ -99,7 +108,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Advanced Strategies Section */}
-      <section className="section">
+      <section id="advanced-strategies" className="section">
         <div className="container">
           <h2>{t('sections.advancedStrategies.title')}</h2>
 
@@ -116,7 +125,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Conclusion Section */}
-      <section className="section">
+      <section id="conclusion" className="section">
         <div className="container">
           <h2>{t('sections.conclusion.title')}</h2>
           <p>{t('sections.conclusion.content')}</p>

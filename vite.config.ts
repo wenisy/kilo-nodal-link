@@ -7,5 +7,29 @@ export default defineConfig({
   base: '/kilo-nodal-link/',
   build: {
     outDir: 'dist',
+    // Enable code splitting
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Split vendor libraries
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom'],
+          i18n: ['react-i18next', 'i18next'],
+        },
+      },
+    },
+    // Enable source maps for production debugging
+    sourcemap: false,
+    // Minify for better performance
+    minify: 'terser',
+    // Set chunk size warnings
+    chunkSizeWarningLimit: 1000,
+  },
+  // Enable gzip compression
+  server: {
+    fs: {
+      // Allow serving files from one level up to the project root
+      allow: ['..']
+    }
   },
 })

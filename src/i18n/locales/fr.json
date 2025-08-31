@@ -4,10 +4,52 @@
     "about": "À propos",
     "contact": "Contact"
   },
+  "about": {
+    "title": "À propos de l'Ingénierie Contextuelle",
+    "introduction": {
+      "title": "Notre Mission",
+      "content": "Dans cette ère de vagues IA déferlantes, nous travaillons dur pour transformer le développement d'applications IA d'une \"alchimie\" dépendante de l'intuition et de la chance en une \"ingénierie\" testable, itérable et optimisable. Nous croyons que les systèmes IA réussis ne dépendent pas seulement de modèles puissants, mais de la gestion et de l'application sophistiquées du \"contexte\" derrière eux."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "content": "Nous imaginons un avenir où toutes les applications IA possèdent d'excellentes capacités de \"mémoire\" et de \"compréhension\", ne souffrant plus de \"dégradation contextuelle\" ou de lacunes informationnelles, devenant de véritables partenaires puissants, intelligents et fiables. Nous espérons devenir la pierre angulaire de la construction d'applications IA de haute qualité, faisant de l'ingénierie contextuelle la compétitivité de base de chaque entreprise native IA. Nous croyons fermement qu'à travers des méthodes d'ingénierie rigoureuses et la poursuite d'un artisanat ultime, nous pouvons inaugurer une nouvelle ère de collaboration plus efficace entre l'IA et les humains."
+    },
+    "whatWeDo": {
+      "title": "Nos Services",
+      "memory": {
+        "title": "Persistance Contextuelle Intelligente et Gestion de la Mémoire",
+        "description": "Nous fournissons des outils et plateformes avancés pour aider vos agents IA à écrire efficacement et stocker de manière persistante les pensées intermédiaires, les plans, les données temporaires, ainsi que les résumés de session utilisateur et les faits clés. Qu'il s'agisse de mémoire de travail à court terme ou d'accumulation de connaissances à long terme (telles que les bases de données vectorielles et les graphes de connaissances), nous nous assurons que l'information peut être récupérée à la demande à l'avenir."
+      },
+      "retrieval": {
+        "title": "Récupération Contextuelle Avancée et Sélection Intelligente",
+        "description": "Nous construisons une infrastructure de récupération native IA qui transcende la correspondance de mots-clés traditionnelle, combinant la compréhension sémantique de la recherche vectorielle, la correspondance de mots-clés de la recherche en texte intégral et le filtrage de métadonnées pour réaliser un criblage approximatif à haut rappel à partir d'informations massives."
+      },
+      "optimization": {
+        "title": "Optimisation Contextuelle et Compression Efficace",
+        "description": "Nous fournissons des méthodes innovantes pour effectuer une \"compression\" avec ou sans perte des informations avant qu'elles n'entrent dans la fenêtre contextuelle, portant les signaux les plus essentiels avec moins de tokens. Cela inclut le résumé automatique, l'élagage historique et d'autres stratégies pour vous aider à accueillir plus d'informations efficaces dans une capacité contextuelle limitée."
+      },
+      "architecture": {
+        "title": "Architectures Multi-Agents et Isolation Contextuelle",
+        "description": "Nous concevons et déployons des architectures multi-agents qui permettent aux sous-agents de travailler en parallèle dans leurs domaines respectifs, digérant de grandes quantités d'informations brutes, puis soumettant uniquement les insights les plus critiques et raffinés à l'agent principal."
+      },
+      "evaluation": {
+        "title": "Évaluation de la Qualité Contextuelle et Benchmarking Génératif",
+        "description": "Nous fournissons des outils de \"benchmarking génératif\" qui utilisent de grands modèles pour générer des paires de questions-réponses de haute qualité à partir de vos documents privés en sens inverse, construisant des \"ensembles de données dorées\" pour vous aider à évaluer quantitativement les effets d'amélioration des performances de différents modèles d'intégration, stratégies de récupération ou étapes de reclassement."
+      }
+    },
+    "team": {
+      "title": "Notre Équipe",
+      "content": "Notre équipe se compose de chercheurs en IA, d'ingénieurs logiciels et d'experts du secteur ayant une vaste expérience en apprentissage automatique, traitement du langage naturel et architecture système. Nous sommes passionnés par l'avancement du domaine de l'ingénierie contextuelle et nous nous engageons à aider les organisations à construire des applications IA plus fiables et efficaces."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "content": "Prêt à transformer vos applications IA de l'alchimie à l'ingénierie ? Nous aimerions entendre votre voix et discuter de la façon dont nous pouvons vous aider à maîtriser l'art de l'ingénierie contextuelle."
+    }
+  },
   "hero": {
     "title": "Ingénierie Contextuelle",
     "subtitle": "De l'Alchimie IA à l'Ingénierie",
-    "description": "Transformer le développement IA d'une alchimie mystérieuse en une ingénierie rigoureuse grâce à une gestion systématique du contexte."
+    "description": "Autonomiser les développeurs et les entreprises pour libérer le développement d'applications IA de l'incertitude, le rendant fiable, efficace et évolutif grâce à des solutions avancées d'ingénierie contextuelle."
   },
   "sections": {
     "introduction": {
@@ -88,5 +130,42 @@
     "english": "English",
     "chinese": "中文",
     "french": "Français"
+  },
+  "toc": {
+    "title": "Table des Matières",
+    "introduction": "Introduction : De l'Alchimie IA à l'Ingénierie",
+    "whatIsContext": "Qu'est-ce que le Contexte",
+    "whatIsContextEngineering": "Qu'est-ce que l'Ingénierie Contextuelle",
+    "whyImportant": "Pourquoi l'Ingénierie Contextuelle est Essentielle",
+    "corePractices": "Pratiques Centrales du Cadre d'Ingénierie Contextuelle",
+    "advancedStrategies": "Stratégies Avancées et Futur",
+    "conclusion": "Conclusion et Perspectives"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Contactez l'équipe d'Ingénierie Contextuelle",
+    "introduction": "Nous aimerions avoir de vos nouvelles ! Que vous ayez des questions sur l'ingénierie contextuelle, que vous ayez besoin de services de conseil ou que vous souhaitiez collaborer sur des recherches, n'hésitez pas à nous contacter.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "submit": "Envoyer le message"
+    },
+    "info": {
+      "title": "Informations de contact",
+      "email": "Email : info@contextengineering.com",
+      "response": "Nous répondons généralement dans les 24-48 heures."
+    },
+    "social": {
+      "title": "Suivez-nous",
+      "description": "Restez informé des dernières recherches en ingénierie contextuelle et des meilleures pratiques."
+    }
+  },
+  "search": {
+    "placeholder": "Rechercher du contenu...",
+    "noResults": "Aucun résultat trouvé",
+    "results": "Résultats de recherche",
+    "clear": "Effacer la recherche"
   }
 }

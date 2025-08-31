@@ -2,12 +2,55 @@
   "nav": {
     "home": "Home",
     "about": "About",
+    "blog": "Blog",
     "contact": "Contact"
+  },
+  "about": {
+    "title": "About Context Engineering",
+    "introduction": {
+      "title": "Our Mission",
+      "content": "In this era of surging AI waves, we are working hard to transform AI application development from intuition and luck-dependent 'alchemy' into a testable, iterable, and optimizable 'engineering'. We believe that successful AI systems do not rely solely on powerful models, but on the sophisticated management and application of 'context' behind them."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "We envision a future where all AI applications possess excellent 'memory' and 'understanding' capabilities, no longer plagued by 'context rot' or information gaps, becoming truly powerful, intelligent, and trustworthy partners. We hope to become the cornerstone of building high-quality AI applications, making context engineering the core competitiveness of every AI-native company. We firmly believe that through rigorous engineering methods and pursuit of ultimate craftsmanship, we can usher in a new era of more efficient collaboration between AI and humans."
+    },
+    "whatWeDo": {
+      "title": "Our Services",
+      "memory": {
+        "title": "Intelligent Context Persistence & Memory Management",
+        "description": "We provide advanced tools and platforms to help your AI agents efficiently 'write' and persistently store intermediate thoughts, plans, temporary data, and user session summaries and key facts. Whether it's short-term working memory or long-term knowledge accumulation (such as vector databases and knowledge graphs), we ensure information can be retrieved on demand in the future."
+      },
+      "retrieval": {
+        "title": "Advanced Context Retrieval & Intelligent Selection",
+        "description": "We build AI-native retrieval infrastructure that transcends traditional keyword matching, combining vector search's semantic understanding, full-text search's keyword matching, and metadata filtering to achieve high-recall rough screening from massive information."
+      },
+      "optimization": {
+        "title": "Context Optimization & Efficient Compression",
+        "description": "We provide innovative methods to perform lossy or lossless 'compression' of information before it enters the context window, carrying the most core signals with fewer tokens. This includes automatic summarization, history pruning, and other strategies."
+      },
+      "architecture": {
+        "title": "Multi-Agent Architectures & Context Isolation",
+        "description": "We design and deploy multi-agent architectures that allow sub-agents to work in parallel within their respective domains, digest large amounts of raw information, and then submit only the most critical and refined insights to the main agent."
+      },
+      "evaluation": {
+        "title": "Context Quality Evaluation & Generative Benchmarking",
+        "description": "We provide 'generative benchmarking' tools that use large models to generate high-quality Q&A pairs from your private documents in reverse, building 'golden datasets' to help you quantitatively evaluate the performance improvement effects of different embedding models, retrieval strategies, or re-ranking steps."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "content": "Our team consists of AI researchers, software engineers, and industry experts with extensive experience in machine learning, natural language processing, and system architecture. We are passionate about advancing the field of context engineering and helping organizations build more reliable and efficient AI applications."
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "content": "Ready to transform your AI applications from alchemy to engineering? We'd love to hear from you and discuss how we can help you master the art of context engineering."
+    }
   },
   "hero": {
     "title": "Context Engineering",
     "subtitle": "From AI Alchemy to Engineering",
-    "description": "Transforming AI development from mysterious alchemy to rigorous engineering through systematic context management."
+    "description": "Empowering developers and enterprises to liberate AI application development from uncertainty, making it reliable, efficient, and scalable through advanced context engineering solutions."
   },
   "sections": {
     "introduction": {
@@ -88,5 +131,76 @@
     "english": "English",
     "chinese": "中文",
     "french": "Français"
+  },
+  "toc": {
+    "title": "Table of Contents",
+    "introduction": "Introduction: From AI Alchemy to Engineering",
+    "whatIsContext": "What is Context",
+    "whatIsContextEngineering": "What is Context Engineering",
+    "whyImportant": "Why Context Engineering is Essential",
+    "corePractices": "Core Practices of Context Engineering Framework",
+    "advancedStrategies": "Advanced Strategies and Future",
+    "conclusion": "Conclusion and Outlook"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch with Context Engineering",
+    "introduction": "We'd love to hear from you! Whether you have questions about context engineering, need consulting services, or want to collaborate on research, please don't hesitate to reach out.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email: info@contextengineering.com",
+      "response": "We typically respond within 24-48 hours."
+    },
+    "social": {
+      "title": "Follow Us",
+      "description": "Stay updated with the latest in context engineering research and best practices."
+    }
+  },
+  "search": {
+    "placeholder": "Search content...",
+    "noResults": "No results found",
+    "results": "Search Results",
+    "clear": "Clear search"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Latest Insights on Context Engineering",
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "recentPosts": "Recent Posts",
+    "featuredPost": "Featured Post",
+    "posts": [
+      {
+        "id": "1",
+        "title": "Understanding Context Rot: The Hidden Performance Killer",
+        "excerpt": "Explore how context rot affects AI model performance and learn strategies to mitigate its impact on your applications.",
+        "date": "2024-01-15",
+        "readTime": "5 min read",
+        "category": "Technical Deep Dive"
+      },
+      {
+        "id": "2",
+        "title": "Two-Stage Retrieval: Revolutionizing Information Access",
+        "excerpt": "Learn how two-stage retrieval systems combine semantic similarity with model-based re-ranking for superior results.",
+        "date": "2024-01-10",
+        "readTime": "7 min read",
+        "category": "Architecture"
+      },
+      {
+        "id": "3",
+        "title": "From Prompts to Systems: The Engineering Mindset",
+        "excerpt": "Discover why treating AI development as engineering rather than alchemy leads to more reliable and scalable solutions.",
+        "date": "2024-01-05",
+        "readTime": "6 min read",
+        "category": "Best Practices"
+      }
+    ]
   }
 }
