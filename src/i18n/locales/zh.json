@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "contact": "联系"
+  },
+  "hero": {
+    "title": "上下文工程",
+    "subtitle": "从AI炼金术到工程学",
+    "description": "通过系统性的上下文管理，将AI开发从神秘的炼金术转变为严谨的工程学。"
+  },
+  "sections": {
+    "introduction": {
+      "title": "引言：从AI炼金术到工程学",
+      "content": "当前AI应用开发，尤其是Agent的构建，常被比喻为一场神秘的炼金术。尽管技术看似先进，但许多AI Agent在实际使用中却频繁掉链子，其根本原因往往并非模型能力不足，而是上下文工程的失败。"
+    },
+    "whatIsContext": {
+      "title": "什么是上下文",
+      "definition": "从本质上讲，上下文是提供给大语言模型（LLM）的、用于完成下一步推理或生成任务的全部信息的集合。它远不止聊天记录那么简单。",
+      "categories": {
+        "instructional": {
+          "title": "指导性上下文",
+          "description": "指导模型该做什么以及如何去做，为模型的行为设定框架、目标和规则。"
+        },
+        "informational": {
+          "title": "信息性上下文",
+          "description": "告诉模型需要知道什么知识，为模型提供解决问题所必需的事实、数据与知识。"
+        },
+        "actionable": {
+          "title": "行动性上下文",
+          "description": "告诉模型能做什么以及做了之后的结果，为模型提供与外部世界交互的能力。"
+        }
+      }
+    },
+    "whatIsContextEngineering": {
+      "title": "什么是上下文工程",
+      "definition": "上下文工程是一门系统性的学问，专注于设计、构建并维护一个动态系统，负责为Agent执行任务的每一步智能地组装出最优的上下文组合，从而确保任务能够被可靠、高效地完成。",
+      "goal": "它的工作目标是决定在大语言模型的任何一次生成步骤中，到底应该把什么信息放入上下文窗口中。"
+    },
+    "whyImportant": {
+      "title": "为什么要进行上下文工程",
+      "contextRot": {
+        "title": "上下文腐烂的残酷现实",
+        "description": "大模型的能力并非对上下文窗口的token数量免疫。你往模型脑袋里塞的东西越多，它反而会变得越笨。"
+      },
+      "simpleAccumulation": {
+        "title": "简单累加策略的弊端",
+        "description": "在任务复杂和长时间的情况下，简单地把所有可能的上下文都提供给模型，不仅会失效，甚至会降低模型表现。"
+      }
+    },
+    "corePractices": {
+      "title": "上下文工程的核心实践框架",
+      "writing": {
+        "title": "写入",
+        "description": "将上下文持久化，超越上下文窗口的限制，以备未来按需取用。"
+      },
+      "selection": {
+        "title": "选取",
+        "description": "在每次模型调用之前，从所有可用的信息源中动态拉取与当前子任务最相关的信息。"
+      },
+      "compression": {
+        "title": "压缩",
+        "description": "在信息进入上下文窗口之前，对其进行有损或无损的压缩，用更少的token来承载最核心的信号。"
+      },
+      "isolation": {
+        "title": "隔离",
+        "description": "在多信息流之间设置边界，由子流程先行消化，仅上交要点信息。"
+      }
+    },
+    "advancedStrategies": {
+      "title": "上下文工程的进阶策略与未来",
+      "twoStageRetrieval": {
+        "title": "两阶段检索",
+        "description": "第一阶段利用向量搜索的语义相似性、传统全文搜索的关键词匹配，从数百万个候选项中快速筛选出几百个高度相似的候选者。第二阶段使用大模型本身对这几百个候选块进行重排序。"
+      },
+      "generativeBenchmarking": {
+        "title": "生成式基准测试",
+        "description": "让大模型读取文档，然后反向生成可能的用户问题，快速创建大量问答对，形成黄金数据集。"
+      }
+    },
+    "conclusion": {
+      "title": "总结与展望",
+      "content": "AI应用开发的重心已经不可逆转地从如何找到那句完美的提示词，转向为如何设计出一个能够在每一步都动态组装出完美上下文的健壮可靠的系统。"
+    }
+  },
+  "language": {
+    "switch": "语言",
+    "english": "English",
+    "chinese": "中文",
+    "french": "Français"
+  }
+}

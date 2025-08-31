@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Ingénierie Contextuelle",
+    "subtitle": "De l'Alchimie IA à l'Ingénierie",
+    "description": "Transformer le développement IA d'une alchimie mystérieuse en une ingénierie rigoureuse grâce à une gestion systématique du contexte."
+  },
+  "sections": {
+    "introduction": {
+      "title": "Introduction : De l'Alchimie IA à l'Ingénierie",
+      "content": "Le développement actuel des applications IA, en particulier la construction d'agents, est souvent comparé à une alchimie mystérieuse. Malgré des technologies apparemment avancées, de nombreux agents IA échouent fréquemment dans l'usage réel, et la cause profonde n'est souvent pas une insuffisance des capacités du modèle, mais l'échec de l'ingénierie contextuelle."
+    },
+    "whatIsContext": {
+      "title": "Qu'est-ce que le Contexte",
+      "definition": "Essentiellement, le contexte est l'ensemble de toutes les informations fournies à un grand modèle de langage (LLM) pour accomplir la prochaine tâche de raisonnement ou de génération. Il va bien au-delà de l'historique des conversations.",
+      "categories": {
+        "instructional": {
+          "title": "Contexte Instructionnel",
+          "description": "Guide le modèle sur ce qu'il doit faire et comment le faire, établissant des cadres, des objectifs et des règles pour le comportement du modèle."
+        },
+        "informational": {
+          "title": "Contexte Informationnel",
+          "description": "Dit au modèle quelles connaissances il a besoin, fournissant les faits, données et connaissances nécessaires à la résolution de problèmes."
+        },
+        "actionable": {
+          "title": "Contexte Actionnable",
+          "description": "Dit au modèle ce qu'il peut faire et les résultats après l'avoir fait, fournissant la capacité d'interagir avec le monde extérieur."
+        }
+      }
+    },
+    "whatIsContextEngineering": {
+      "title": "Qu'est-ce que l'Ingénierie Contextuelle",
+      "definition": "L'ingénierie contextuelle est une discipline systématique axée sur la conception, la construction et la maintenance d'un système dynamique responsable de l'assemblage intelligent de combinaisons contextuelles optimales pour chaque étape de l'exécution de l'agent, assurant que les tâches sont accomplies de manière fiable et efficace.",
+      "goal": "Son objectif de travail est de décider quelles informations doivent être placées dans la fenêtre contextuelle pour toute étape de génération du grand modèle de langage."
+    },
+    "whyImportant": {
+      "title": "Pourquoi l'Ingénierie Contextuelle est Essentielle",
+      "contextRot": {
+        "title": "La Réalité Cruelle de la Dégradation Contextuelle",
+        "description": "Les capacités des grands modèles ne sont pas immunisées contre le nombre de tokens dans la fenêtre contextuelle. Plus vous bourrez la tête du modèle d'informations, plus il devient souvent stupide."
+      },
+      "simpleAccumulation": {
+        "title": "Les Pièges de la Stratégie d'Accumulation Simple",
+        "description": "Dans les tâches complexes et de longue durée, fournir simplement tous les contextes possibles au modèle non seulement échoue, mais réduit également les performances du modèle."
+      }
+    },
+    "corePractices": {
+      "title": "Pratiques Centrales du Cadre d'Ingénierie Contextuelle",
+      "writing": {
+        "title": "Écriture",
+        "description": "Persister le contexte au-delà des limitations de la fenêtre contextuelle pour une récupération à la demande future."
+      },
+      "selection": {
+        "title": "Sélection/Récupération",
+        "description": "Avant chaque appel de modèle, extraire dynamiquement les informations les plus pertinentes de toutes les sources disponibles."
+      },
+      "compression": {
+        "title": "Compression",
+        "description": "Compresser les informations avant leur entrée dans la fenêtre contextuelle pour accommoder plus de signaux efficaces dans une capacité limitée."
+      },
+      "isolation": {
+        "title": "Isolation",
+        "description": "Établir des frontières entre les flux d'informations multiples, permettant aux sous-processus de digérer d'abord et de ne transmettre que les informations clés."
+      }
+    },
+    "advancedStrategies": {
+      "title": "Stratégies Avancées et Futur",
+      "twoStageRetrieval": {
+        "title": "Récupération en Deux Étapes",
+        "description": "La première étape utilise la similarité sémantique pour filtrer rapidement des millions de candidats, la deuxième étape utilise le modèle lui-même pour le reclassement."
+      },
+      "generativeBenchmarking": {
+        "title": "Évaluation Comparative Générative",
+        "description": "Laisser le modèle lire les documents puis générer des questions d'utilisateur possibles pour créer rapidement des paires question-réponse."
+      }
+    },
+    "conclusion": {
+      "title": "Conclusion et Perspectives",
+      "content": "Le centre de gravité du développement des applications IA s'est irréversiblement déplacé de la recherche de l'invite parfaite vers la conception d'un système robuste et fiable capable d'assembler dynamiquement un contexte parfait à chaque étape."
+    }
+  },
+  "language": {
+    "switch": "Langue",
+    "english": "English",
+    "chinese": "中文",
+    "french": "Français"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Context Engineering",
+    "subtitle": "From AI Alchemy to Engineering",
+    "description": "Transforming AI development from mysterious alchemy to rigorous engineering through systematic context management."
+  },
+  "sections": {
+    "introduction": {
+      "title": "Introduction: From AI Alchemy to Engineering",
+      "content": "Current AI application development, especially Agent building, is often compared to a mysterious alchemy. Despite advanced technology, many AI Agents frequently fail in actual use, and the root cause is often not insufficient model capabilities, but the failure of context engineering."
+    },
+    "whatIsContext": {
+      "title": "What is Context",
+      "definition": "Essentially, context is the collection of all information provided to a large language model (LLM) for completing the next reasoning or generation task. It goes far beyond just chat history.",
+      "categories": {
+        "instructional": {
+          "title": "Instructional Context",
+          "description": "Guides the model on what to do and how to do it, setting frameworks, goals, and rules for the model's behavior."
+        },
+        "informational": {
+          "title": "Informational Context",
+          "description": "Tells the model what knowledge it needs, providing facts, data, and knowledge necessary for problem-solving."
+        },
+        "actionable": {
+          "title": "Actionable Context",
+          "description": "Tells the model what it can do and the results after doing it, providing the ability to interact with the external world."
+        }
+      }
+    },
+    "whatIsContextEngineering": {
+      "title": "What is Context Engineering",
+      "definition": "Context engineering is a systematic discipline focused on designing, building, and maintaining a dynamic system responsible for intelligently assembling optimal context combinations for each step of Agent execution, ensuring tasks are completed reliably and efficiently.",
+      "goal": "Its working goal is to decide what information should be placed in the context window for any generation step of the large language model."
+    },
+    "whyImportant": {
+      "title": "Why Context Engineering is Essential",
+      "contextRot": {
+        "title": "The Harsh Reality of Context Rot",
+        "description": "The capabilities of large models are not immune to the number of tokens in the context window. The more information you stuff into the model's head, the dumber it often becomes."
+      },
+      "simpleAccumulation": {
+        "title": "The Pitfalls of Simple Accumulation Strategy",
+        "description": "In complex and long-term tasks, simply providing all possible contexts to the model not only fails but also reduces model performance."
+      }
+    },
+    "corePractices": {
+      "title": "Core Practices of Context Engineering Framework",
+      "writing": {
+        "title": "Writing",
+        "description": "Persist context beyond context window limitations for on-demand retrieval in the future."
+      },
+      "selection": {
+        "title": "Selection/Retrieval",
+        "description": "Before each model call, dynamically pull the most relevant information from all available sources."
+      },
+      "compression": {
+        "title": "Compression",
+        "description": "Compress information before entering the context window to accommodate more effective signals within limited capacity."
+      },
+      "isolation": {
+        "title": "Isolation",
+        "description": "Set boundaries between multi-information streams, allowing sub-processes to digest first and only pass key information."
+      }
+    },
+    "advancedStrategies": {
+      "title": "Advanced Strategies and Future",
+      "twoStageRetrieval": {
+        "title": "Two-stage Retrieval",
+        "description": "First stage uses semantic similarity to quickly filter from millions of candidates, second stage uses the model itself for re-ranking."
+      },
+      "generativeBenchmarking": {
+        "title": "Generative Benchmarking",
+        "description": "Let the model read documents and generate user questions to quickly create question-answer pairs."
+      }
+    },
+    "conclusion": {
+      "title": "Conclusion and Outlook",
+      "content": "The focus of AI application development has irreversibly shifted from finding the perfect prompt to designing a robust and reliable system that can dynamically assemble perfect context at every step."
+    }
+  },
+  "language": {
+    "switch": "Language",
+    "english": "English",
+    "chinese": "中文",
+    "french": "Français"
+  }
+}
